@@ -1,0 +1,10 @@
+
+<div class="container">
+  <ul>
+	<li *ngFor="let name of names; let i = index">
+    <div *ngIf="i%2 === 0">
+      {{name}}
+    </div>
+  </li>
+</ul>
+</div>
